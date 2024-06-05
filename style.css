@@ -51,3 +51,15 @@ footer{
 #produc{
     margin-top: 36%;
 }
+img{
+    max-width: 100%;
+}
+.items{
+    margin-top: 500px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.items img{
+    width: 1900px;
+}
