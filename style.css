@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lobster&display=swap');
+body{
+    background: url(https://media.es.wired.com/photos/65404ab407e0738085203f28/16:9/w_2560%2Cc_limit/Gear-Apple-MacBook-Pro-2up_print.jpg);
+    background-size: 1650px 995px;
+    background-repeat: no-repeat;
+}
+header{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between; 
+    font-family: "Lobster", sans-serif;
+    font-weight: 800;
+    background-color: rgb(197, 197, 184);
+}
+header>a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+header>i{
+    font-size: 40px;
+    margin-top: 15px;
+}
+#srch{
+    height: 20px;
+    margin-top: 25px;
+    border-radius: 40px ;
+    width: 200px;
+}
+#lema{
+    margin-top: 300px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+footer{
+    background-color: rgb(197, 197, 184);
+    display: flex;
+    justify-content: space-between;
+}
+#rs{
+    font-size: 40px;
+}
+#usr{
+    cursor: pointer;
+}
+#carri{
+    cursor: pointer;
+}
+#produc{
+    margin-top: 36%;
+}
