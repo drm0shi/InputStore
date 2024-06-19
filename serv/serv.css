@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lobster&display=swap');
+body{
+    background: url(https://img.freepik.com/free-vector/background-realistic-abstract-technology-particle_23-2148431735.jpg);
+    background-size: 100% 995px;
+    background-repeat: no-repeat;
+}
+header{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between; 
+    font-family: "Lobster", sans-serif;
+    font-weight: 800;
+    background-color: rgb(197, 197, 184);
+    position: sticky;top: 0;
+}
+header>a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+header>i{
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+footer{
+    background-color: rgb(197, 197, 184);
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+#lema{
+    text-align: center;
+}
+#rs{
+    font-size: 40px;
+}
+#usr{
+    margin-top: 18px;
+    font-size: 40px;
+    cursor: pointer;
+}
+.fa-instagram{
+    margin-top: 300px;
+    font-weight: 800;
+    text-align: center;
+    color: rgb(146, 146, 146);
+    font-size: 80px;padding-right: 30px;
+    transition-duration: 4s;
+}
+.fa-instagram:hover{
+    margin-top: 300px;
+    font-weight: 800;
+    text-align: center;
+    color: rgb(228, 67, 214);
+    font-size: 80px;padding-right: 30px;
+    transition-duration: 1s;
+}
+.fa-tiktok{
+    margin-top: 300px;
+    font-weight: 800;
+    text-align: center;
+    color: rgb(146, 146, 146);
+    font-size: 80px;padding-right: 30px; 
+transition-duration: 4s;
+}
+.fa-tiktok:hover{
+    margin-top: 300px;
+    font-weight: 800;
+    text-align: center;
+    color: rgb(160, 31, 74);
+    font-size: 80px;padding-right: 30px; 
+transition-duration: 1s;
+}
+.fa-facebook{
+    margin-top: 300px;
+    font-weight: 800;
+    text-align: center;
+    color: rgb(146, 146, 146);
+    font-size: 80px;padding-right: 30px; 
+    transition-duration: 4s;
+}
+.fa-facebook:hover{
+    margin-top: 300px;
+    font-weight: 800;
+    text-align: center;
+    color: rgb(0, 56, 241);
+    font-size: 80px;padding-right: 30px; 
+    transition-duration: 1s;
+}
+.fa-whatsapp{
+    margin-top: 300px;
+    font-weight: 800;
+    text-align: center;
+    color: rgb(146, 146, 146);
+    font-size: 80px;padding-right: 30px; 
+transition-duration: 4s;
+}
+.fa-whatsapp:hover{
+    margin-top: 300px;
+    font-weight: 800;
+    text-align: center;
+    color: rgb(0, 241, 32);
+    font-size: 80px;padding-right: 30px; 
+transition-duration: 1s;
+}
